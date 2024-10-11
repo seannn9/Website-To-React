@@ -1,0 +1,123 @@
+/* ! Login and Signup Page */
+body,
+html {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../images/archi3.jpg");
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form_container {
+    position: absolute;
+    border-radius: 25px;
+    background-color: #694cc0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 150px;
+    width: 275px;
+    text-align: center;
+    z-index: 2;
+    top: 50vh;
+    left: 50%;
+    translate: -50% -50%;
+}
+
+.login_fieldset {
+    border: 0px;
+    padding: 15px;
+    margin: auto;
+    width: 75%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_email,
+.login_password {
+    width: 100%;
+    height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: large;
+    margin-bottom: 40px;
+    display: block;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 8px 3px black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login_email:focus,
+.login_password:hover {
+    outline: none;
+}
+
+.login_email {
+    background-image: url("../images/email.png");
+    background-position: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.login_password {
+    background-image: url("../images/password.png");
+    background-position: calc(100% - 10px);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.signin {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.login_button {
+    position: relative;
+    top: 140px;
+    padding: 16px 32px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 25px;
+    width: 130px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.login_button:hover {
+    background-color: rgb(50, 69, 92);
+    color: white;
+    transform: scale(1.1);
+}
+
+.signup_link {
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+.signup_link p {
+    font-size: 16px;
+    color: black;
+}
+
+.signup_link a {
+    color: black;
+    text-decoration: underline;
+}
+
+.signup_link a:hover {
+    color: #ddd;
+}
